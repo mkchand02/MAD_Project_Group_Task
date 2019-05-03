@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/update_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Name"
+            android:textColor="#4A148C"
+            android:background="#B388FF"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:hint="Enter your Updated Name"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ll1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/update_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Username"
+            android:textColor="#4A148C"
+            android:background="#B388FF"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:hint="Enter your Updated Username"
+            android:inputType="textShortMessage"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ll2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/update_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Email"
+            android:textColor="#4A148C"
+            android:background="#B388FF"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:hint="Enter your Updated Email"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll4"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ll3"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/update_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Password"
+            android:textColor="#4A148C"
+            android:background="#B388FF"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:hint="Enter your Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:hint="Confirm your Password"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll5"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ll4"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/update_mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Mobile Number"
+            android:textColor="#4A148C"
+            android:background="#B388FF"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/edit_mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:hint="Enter your Mobile Number"
+            android:inputType="text|phone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="SAVE"
+        android:visibility="gone"
+        android:textColor="#4A148C"
+        android:background="#B388FF"
+        android:clickable="true"/>
+
+</RelativeLayout>

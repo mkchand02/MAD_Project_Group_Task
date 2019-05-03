@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36F4FF81"
+    tools:context=".fragment.UserInfoActivity">
+
+    <ImageView
+        android:id="@+id/usr_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#ffff00"
+        android:src="@drawable/customerm"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/usr_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/usr_img"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#7B1FA2"
+        android:background="#8C9EFF"/>
+
+    <TextView
+        android:id="@+id/usr_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/usr_id"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#4A148C"
+        android:background="#EA80FC"/>
+
+    <TextView
+        android:id="@+id/usr_username"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/usr_name"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#311B92"
+        android:background="#B388FF"/>
+
+    <TextView
+        android:id="@+id/usr_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/usr_username"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#1B5E20"
+        android:background="#B9F6CA"/>
+
+    <TextView
+        android:id="@+id/usr_gender"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENDER"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/usr_email"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#006064"
+        android:background="#84FFFF"/>
+
+
+</RelativeLayout>
